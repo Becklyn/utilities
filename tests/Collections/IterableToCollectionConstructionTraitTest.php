@@ -3,9 +3,9 @@
 namespace Becklyn\Utilities\Tests\Collections;
 
 use Becklyn\Utilities\Collections\IterableToCollectionConstructionTrait;
+use Illuminate\Support\Collection;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use Tightenco\Collect\Support\Collection;
 
 class IterableToCollectionConstructionTraitTest extends TestCase
 {

@@ -2,8 +2,8 @@
 
 namespace Becklyn\Utilities\Enum;
 
+use Illuminate\Support\Collection;
 use Symfony\Component\String\UnicodeString;
-use Tightenco\Collect\Support\Collection;
 
 /**
  * @author Marko Vujnovic <mv@201created.de>

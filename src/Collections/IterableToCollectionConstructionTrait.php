@@ -2,7 +2,8 @@
 
 namespace Becklyn\Utilities\Collections;
 
-use Tightenco\Collect\Support\Collection;
+
+use Illuminate\Support\Collection;
 
 /**
  * @author Marko Vujnovic <mv@201created.de>

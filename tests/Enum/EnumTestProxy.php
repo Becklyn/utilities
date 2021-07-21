@@ -1,8 +1,8 @@
 <?php
 
-namespace C201\Support\Tests\Enum;
+namespace Becklyn\Utilities\Tests\Enum;
 
-use C201\Support\Enum\Enum;
+use Becklyn\Utilities\Enum\Enum;
 
 /**
  * @author Marko Vujnovic <mv@201created.de>

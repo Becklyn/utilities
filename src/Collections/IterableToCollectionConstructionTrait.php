@@ -1,6 +1,6 @@
 <?php
 
-namespace C201\Support\Collections;
+namespace Becklyn\Utilities\Collections;
 
 use Tightenco\Collect\Support\Collection;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace C201\Support\Tests\Enum;
+namespace Becklyn\Utilities\Tests\Enum;
 
 use PHPUnit\Framework\TestCase;
 

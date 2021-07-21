@@ -1,6 +1,6 @@
 <?php
 
-namespace C201\Support\Enum;
+namespace Becklyn\Utilities\Enum;
 
 use Symfony\Component\String\UnicodeString;
 use Tightenco\Collect\Support\Collection;

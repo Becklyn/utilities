@@ -1,13 +1,12 @@
 {
-    "name": "201created/support",
-    "description": "Various support functionality used in 201CREATED projects too small for their own libraries",
+    "name": "becklyn/utilities",
+    "description": "Various utility classes used in Becklyn projects too small for their own libraries",
     "type": "library",
     "license": "MIT",
-    "version": "0.1.3",
     "authors": [
         {
             "name": "Marko Vujnovic",
-            "email": "mv@201created.de"
+            "email": "mv@becklyn.com"
         }
     ],
     "require": {
@@ -21,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "C201\\Support\\": "src/"
+            "Becklyn\\Utilities\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "C201\\Support\\Tests\\": "tests/"
+            "Becklyn\\Utilities\\Tests\\": "tests/"
         }
     }
 }

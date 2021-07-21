@@ -1,8 +1,8 @@
 <?php
 
-namespace C201\Support\Tests\Collections;
+namespace Becklyn\Utilities\Tests\Collections;
 
-use C201\Support\Collections\IterableToCollectionConstructionTrait;
+use Becklyn\Utilities\Collections\IterableToCollectionConstructionTrait;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Tightenco\Collect\Support\Collection;

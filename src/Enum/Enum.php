@@ -11,12 +11,9 @@ use Symfony\Component\String\UnicodeString;
  */
 abstract class Enum
 {
-    private string $value;
-
-    private function __construct(string $value)
+    private function __construct(private string $value)
     {
         $this->assertValue($value);
-        $this->value = $value;
     }
 
     private function assertValue(string $value): void
@@ -29,7 +26,7 @@ abstract class Enum
         }
     }
 
-    public static function __callStatic($functionName, $arguments)
+    public static function __callStatic($functionName, $arguments): static
     {
         foreach (static::values() as $constName => $value) {
             $constNameUcFirstCamel = Collection::make((new UnicodeString($constName))->lower()->split('_'))
@@ -62,7 +59,7 @@ abstract class Enum
             ->map(fn($value) => static::fromString($value));
     }
 
-    public static function fromString(string $value): self
+    public static function fromString(string $value): static
     {
         return new static($value);
     }

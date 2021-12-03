@@ -13,4 +13,9 @@
 2.0.1
 =====
 
-*  (improvement) Now works with Symfony 6
+*   (improvement) Now works with Symfony 6
+
+2.0.2
+=====
+
+*   (improvement) Pins Symfony 5 version to at least `5.4`

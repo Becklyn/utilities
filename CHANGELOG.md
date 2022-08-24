@@ -1,3 +1,8 @@
+2.0.3
+=====
+
+*   (improvement) Added support for illuminate/collections ^9
+
 2.0.2
 =====
 

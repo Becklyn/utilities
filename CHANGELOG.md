@@ -1,3 +1,11 @@
+3.0.0
+=====
+
+*   (improvement) Added support for Symfony 7.4
+*   (bc) Dropped support for Symfony 5.4
+*   (bc) Raised minimum PHP requirement to 8.2
+*   (bc) Updated PHPUnit to ^11.0 and removed phpspec/prophecy-phpunit
+
 2.0.3
 =====
 

@@ -1,3 +1,8 @@
+3.1.0
+=====
+
+*   (improvement) Widened `illuminate/collections` to `^8.12 || ^9.0 || ^10.0 || ^11.0` to match `becklyn/ddd-core` 4.x. Previously the intersection of the two constraints pinned consumers to the EOL Laravel 9 collections.
+
 3.0.0
 =====
 
